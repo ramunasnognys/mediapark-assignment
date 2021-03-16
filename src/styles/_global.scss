@@ -1,6 +1,6 @@
 @use "variables";
 body {
-  background: variables.$bg;
+  background: var(--color-light);
   color: var(--text);
   font-size: 3rem;
   border: 3px solid pink;
