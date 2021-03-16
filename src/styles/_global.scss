@@ -1,0 +1,17 @@
+@use "variables";
+body {
+  background: variables.$bg;
+  color: var(--text);
+  font-size: 3rem;
+  border: 3px solid pink;
+  text-align: center;
+}
+
+
+main {
+  display: grid;
+  place-items: center;
+  border: 3px dashed tomato;
+}
+
+
