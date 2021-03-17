@@ -5,6 +5,12 @@
 @use "utility";
 
 // Sections
-
 @use "header/header";
+@use "header/header-nav";
 @use "hero";
+
+// Components
+@use "components/wrapper";
+@use "components/visually-hidden";
+@use "components/skip-link";
+
