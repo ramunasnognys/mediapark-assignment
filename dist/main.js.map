@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/index.js"],"names":["console","log"],"mappings":"yBAEAA,QAAQC,IAAI,e","file":"main.js","sourcesContent":["import \"./styles/index.scss\";\r\n\r\nconsole.log(\"Hello Media\");\r\n"],"sourceRoot":""}

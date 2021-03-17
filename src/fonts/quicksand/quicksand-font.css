@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("fonts/quicksand/Quicksand-Bold.eot");
+  src: url("fonts/quicksand/Quicksand-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/quicksand/Quicksand-Bold.woff2") format("woff2"),
+    url("fonts/quicksand/Quicksand-Bold.woff") format("woff"),
+    url("fonts/quicksand/Quicksand-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
