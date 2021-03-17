@@ -1,0 +1,50 @@
+:root {
+  --dark-blue: #6f88b1;
+  --mid-blue: #86a0c9;
+  --light-blue: #a7c0e8;
+  --color-dark-grey: #30333c;
+  --color-light-grey-1: #70737c;
+  --light-grey-2: #30333c;
+  --color-logo: #23231e;
+  --lightest-grey: #f0f2f7;
+
+  --color-light: #fff;
+  --color-dark: #062726;
+
+  // Gradients
+  --blue-gradient-1: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(232, 241, 255, 1) 0%,
+    rgba(250, 252, 255, 1) 100%
+  );
+  --green-gradient: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(236, 255, 234, 1) 0%,
+    rgba(229, 255, 245, 1) 100%
+  );
+  --orange-gradient: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(250, 166, 32, 1) 0%,
+    rgba(235, 47, 72, 1) 100%
+  );
+
+  // NT PROJEKTAI BRAND
+  // Fonts
+  --font-base: "Montserrat-Medium", sans-serif;
+  --font-secondary: "Quicksand", sans-serif;
+
+  // Font Colors
+  --color-font-base: var(--light-grey-1);
+  --color-font-secondary: var(--light-grey-2);
+  --color-font-blue: var(--dark-blue);
+
+  // RESPONSIVE BREAKPOINTS
+  --bp-largest: 75em; // 1200px
+  --bp-large: 62.5em; // 1000px
+  --bp-medium: 50em; // 800px;
+  --bp-small: 37.5em; // 600px;
+
+}

@@ -1,16 +1,21 @@
-@use "reset";
-@use "variables";
-@use "global";
-@use "typography";
-@use "utility";
+// BASE
+@use "base/reset";
+@use "base/config";
+@use "base/global";
+@use "base/typography";
 
-// Sections
-@use "header/header";
-@use "header/header-nav";
-@use "hero";
+// LAYOUT
+@use "layout/header/header";
+@use "layout/header/header-nav";
+@use "layout/hero";
 
-// Components
+// COMPONENTS
 @use "components/wrapper";
 @use "components/visually-hidden";
 @use "components/skip-link";
+
+// UTILITIES
+@use "utilities/variables";
+@use "utilities/fonts";
+@use "utilities/mixinz";
 
