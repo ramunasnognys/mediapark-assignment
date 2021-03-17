@@ -1,18 +1,13 @@
 @use "variables";
 @use "fonts";
 
-body {
-  font-family: "Montserrat-Medium";
-  background: var(--color-light);
-  color: var(--text);
-  font-size: 2rem;
-  border: 3px solid rgb(87, 216, 27);
-  text-align: center;
-  color: rgb(80, 77, 72);
+html {
+  font-size: 62.5%;
 }
 
-main {
-  display: grid;
-  place-items: center;
-  border: 3px dashed tomato;
+body {
+  font-family: var(--font-base);
+  color: var(--color-font-base);
+  background: var(--color-light);
+  font-size: 1.6rem;
 }

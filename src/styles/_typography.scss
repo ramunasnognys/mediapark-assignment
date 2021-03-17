@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+p {
+  font-size: clamp(
+    var(--fluid-type-min, 1rem),
+    calc(1rem + var(--fluid-type-target, 3vw)),
+    var(--fluid-type-max, 1.3rem)
+  );
+}
+
+h1 {
+  --fluid-type-min: 2.5rem;
+  --fluid-type-max: 5rem;
+  --fluid-type-target: 5vw;
+
+  max-width: 15ch;
+}
+
+h2 {
+  --fluid-type-min: 1.8rem;
+  --fluid-type-max: 3.2rem;
+
+  max-width: 16ch;
+}
+
+h3 {
+  --fluid-type-min: 1.8rem;
+  --fluid-type-max: 3.2rem;
+
+  max-width: 19ch;
+}
+
+p {
+  line-height: 1.7;
+  max-inline-size: 45ch;
+}
+
+a {
+  color: currentColor;
+}
+
+:focus {
+  outline: 1px dotted currentColor;
+  outline-offset: 0.2rem;
+}
+
+p,
+li,
+dl {
+  max-width: 40ch;
+}

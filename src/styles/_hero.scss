@@ -1,5 +1,5 @@
 .hero {
-    background: url(../images/pic-2.png);
+    background: url(../images/naujienos/chris-barbalis-696423-unsplash.png);
     background-size: cover;
     background-position: center;
     min-height: 300px;
@@ -7,10 +7,16 @@
     border: 3px solid black;
 }
 
-.svg-section {
-    background: url(../images/svg/icon.svg);
-    background-size: cover;
-    background-position: center;
-    min-height: 20px;
-    width: 20px;
-}
+.fancy-link__icon {
+    font-size: 2em;
+  }
+  
+  /* Set the width and height to be 1em, which
+     will be the font-size of its parent element */
+  .icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    fill-rule: nonzero;
+  }
+

@@ -1,4 +1,10 @@
-@use "global";
 @use "reset";
+@use "variables";
+@use "global";
+@use "typography";
+@use "utility";
 
+// Sections
+
+@use "header/header";
 @use "hero";

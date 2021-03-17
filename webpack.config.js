@@ -9,6 +9,7 @@ const plugins = [
   new CleanWebpackPlugin(),
   new MiniCssExtractPlugin(),
   new HtmlWebpackPlugin({
+    filename: 'index.html', // added
     template: "./src/index.html",
   }),
 ];
@@ -22,10 +23,11 @@ module.exports = {
   // mode defaults to 'production' if not set
   mode: mode,
   target: target,
-
+  // watch: true,
   output: {
     // output path is required for `clean-webpack-plugin`
     path: path.resolve(__dirname, "dist"),
+    
     // this places all images processed in an image folder
     // assetModuleFilename: "(images)/[hash][ext][query]",
     // assetModuleFilename: "fonts/[hash][ext][query]",
@@ -79,7 +81,11 @@ module.exports = {
   devtool: "source-map",
 
   devServer: {
-    contentBase: "./dist",
+    contentBase: path.join(__dirname, "dist"),
+    // contentBase: './dist,
     hot: true,
+    port: 9000,
+    open: true,
+    
   },
 };
