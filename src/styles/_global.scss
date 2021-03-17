@@ -1,17 +1,18 @@
 @use "variables";
+@use "fonts";
+
 body {
+  font-family: "Montserrat-Medium";
   background: var(--color-light);
   color: var(--text);
-  font-size: 3rem;
-  border: 3px solid pink;
+  font-size: 2rem;
+  border: 3px solid rgb(87, 216, 27);
   text-align: center;
+  color: rgb(80, 77, 72);
 }
-
 
 main {
   display: grid;
   place-items: center;
   border: 3px dashed tomato;
 }
-
-
