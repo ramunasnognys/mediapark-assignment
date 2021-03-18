@@ -4,6 +4,7 @@
 
   & > * + * {
     margin-left: 8rem;
+
     @media (max-width: 40em) {
       margin-top: 3rem;
     }
@@ -12,12 +13,38 @@
   & > * {
     flex-basis: 100%;
     @media (max-width: 40em) {
-        margin-left: auto;
-        margin-right: auto;
-      }
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media (max-width: 40em) {
     flex-direction: column;
+  }
+
+  // Apply for news section
+  &--news {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+
+    & > * + * {
+      margin-left: 2rem;
+
+      @media (max-width: 40em) {
+        margin-top: 3rem;
+      }
+    }
+    & > * {
+      flex-grow: 1;
+      flex-basis: 1;
+      max-width: 36rem;
+      margin: 1px;
+      @media (max-width: 40em) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+      }
+    }
   }
 }

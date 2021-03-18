@@ -1,2 +1,32 @@
+.news-card {
+  &__img {
+    background-position: center;
+    min-height: 300px;
+    width: 400px;
 
+    &--1 {
+      background: url(../images/naujienos/chris-barbalis-696423-unsplash.png);
+      background-size: cover;
+    }
+    &--2 {
+      background: url(../images/naujienos/caleb-jones-135058-unsplash.png);
+    }
+    &--3 {
+      background: url(../images/header/jason-briscoe-332508-unsplash.png);
+    }
+    &--4 {
+      background: url(../images/naujienos/daniil-silantev-574966-unsplash.png);
+    }
+    &--5 {
+      background: url(../images/naujienos/roberto-nickson-661462-unsplash.png);
+    }
+    &--6 {
+      background: url(../images/naujienos/matthew-hamilton-166549-unsplash.png);
+    }
+  }
+}
 
+.news-card__img[class^="news-card__img"], .scroll-card__img[class^="news-card__img"],{
+  background-size: cover;
+  background-position: center;
+}
