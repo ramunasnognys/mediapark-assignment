@@ -9,9 +9,14 @@ body {
   font-size: 1.6rem;
 }
 
-section,
+section, article,
 main {
-  min-height: 100vh;
+  // min-height: 100vh;
   width: 100%;
-  background: var(--blue-gradient-1);
+  // overflow-y:auto; 
+}
+
+section {
+  padding: 2rem 0;
+  margin: 2rem 0;
 }

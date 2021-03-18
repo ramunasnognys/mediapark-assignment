@@ -1,16 +1,40 @@
 .u-font-secondary {
-    font-family: var(--font-secondary);
+  font-family: var(--font-secondary);
 }
 
 .u-bg-light {
-    background:var(--color-light);
+  background: var(--color-light);
 }
 .u-bg-blue {
-    background:var(--light-blue);
+  background: var(--light-blue);
+}
+.u-bg-dark-accent {
+  background-color: var(--dark-accent);
+}
+
+.u-bg-blue-gradient {
+  background: var(--blue-gradient-1);
 }
 
 .u-sticky {
-    position:sticky;
-    top: 0;
-    
+  position: sticky;
+  top: 0;
 }
+
+.temp-h {
+  height: 50rem;
+  border: 2px solid brown;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 135.1rem);
+  border: 2px solid black;
+
+  &--news {
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+  }
+}
+
+

@@ -60,6 +60,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+
 }
 
 /* Natural flow and rhythm in articles by default */
@@ -76,9 +77,9 @@ select {
 }
 
 /* Blur images when they have no alt attribute */
-img:not([alt]) {
-  filter: blur(10px);
-}
+// img:not([alt]) {
+//   filter: blur(10px);
+// }
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {

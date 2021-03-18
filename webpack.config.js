@@ -9,7 +9,7 @@ const plugins = [
   new CleanWebpackPlugin(),
   new MiniCssExtractPlugin(),
   new HtmlWebpackPlugin({
-    filename: 'index.html', // added
+    filename: "index.html", // added
     template: "./src/index.html",
   }),
 ];
@@ -27,9 +27,9 @@ module.exports = {
   output: {
     // output path is required for `clean-webpack-plugin`
     path: path.resolve(__dirname, "dist"),
-    
+
     // this places all images processed in an image folder
-    // assetModuleFilename: "(images)/[hash][ext][query]",
+    // assetModuleFilename: "images/[hash][ext][query]",
     // assetModuleFilename: "fonts/[hash][ext][query]",
   },
 
@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: "asset/resource",
+        type: "asset",
         generator: {
           filename: "images/[hash][ext]",
         },
@@ -86,6 +86,5 @@ module.exports = {
     hot: true,
     port: 9000,
     open: true,
-    
   },
 };

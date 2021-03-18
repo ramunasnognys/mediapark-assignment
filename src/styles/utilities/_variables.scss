@@ -10,6 +10,7 @@
 
   --color-light: #fff;
   --color-dark: #062726;
+  --dark-accent: #30333c;
 
   // Gradients
   --blue-gradient-1: linear-gradient(
@@ -41,10 +42,6 @@
   --color-font-secondary: var(--light-grey-2);
   --color-font-blue: var(--dark-blue);
 
-  // RESPONSIVE BREAKPOINTS
-  --bp-largest: 75em; // 1200px
-  --bp-large: 62.5em; // 1000px
-  --bp-medium: 50em; // 800px;
-  --bp-small: 37.5em; // 600px;
-
+  --metric-wrapper: 40rem;
+  --metric-gutter: 8rem;
 }

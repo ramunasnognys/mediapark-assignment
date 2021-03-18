@@ -1,0 +1,16 @@
+.scroll-card__img {
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  width: 400px;
+
+  &--1 {
+    background: url(../images/naujienos/chris-barbalis-696423-unsplash.png);
+  }
+  &--2 {
+    background: url(../images/header/tu-tu-322210-unsplash.png);
+  }
+  &--3 {
+    background: url(../images/header/kirill-975619-unsplash.png);
+  }
+}

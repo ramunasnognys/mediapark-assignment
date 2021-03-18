@@ -1,0 +1,23 @@
+.split {
+  display: flex;
+  text-align: center;
+
+  & > * + * {
+    margin-left: 8rem;
+    @media (max-width: 40em) {
+      margin-top: 3rem;
+    }
+  }
+
+  & > * {
+    flex-basis: 100%;
+    @media (max-width: 40em) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+
+  @media (max-width: 40em) {
+    flex-direction: column;
+  }
+}

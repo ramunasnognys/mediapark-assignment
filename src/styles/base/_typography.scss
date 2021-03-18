@@ -7,6 +7,8 @@ p {
     calc(1rem + var(--fluid-type-target, 3vw)),
     var(--fluid-type-max, 1.3rem)
   );
+
+  margin-bottom: 1em;
 }
 
 h1 {
@@ -15,6 +17,8 @@ h1 {
   --fluid-type-target: 5vw;
 
   max-width: 15ch;
+
+  
 }
 
 h2 {
@@ -50,3 +54,4 @@ li,
 dl {
   max-width: 40ch;
 }
+

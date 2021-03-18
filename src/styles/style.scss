@@ -1,21 +1,27 @@
 // BASE
 @use "base/reset";
-@use "base/config";
 @use "base/global";
 @use "base/typography";
+@use "base/config";
 
 // LAYOUT
-@use "layout/header/header";
-@use "layout/header/header-nav";
+@use "layout/header";
 @use "layout/hero";
+@use "layout/news";
+@use "layout/footer";
 
 // COMPONENTS
 @use "components/wrapper";
+@use "components/header-nav";
 @use "components/visually-hidden";
 @use "components/skip-link";
+@use "components/scroll-cards";
+@use "components/blog-gallery";
+@use "components/switcher";
+@use "components/split";
 
 // UTILITIES
 @use "utilities/variables";
 @use "utilities/fonts";
 @use "utilities/mixinz";
-
+@use "utilities/utility";
