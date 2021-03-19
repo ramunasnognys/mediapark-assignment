@@ -8,13 +8,14 @@
   border-bottom-left-radius: 3.1rem;
   border-bottom-right-radius: 3.1rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-
+  position: relative;
   @media (max-width: 50em) {
     margin-bottom: 4rem;
   }
 
   &__text-content {
     padding: 0 4.5rem;
+    min-height: 250px;
 
     @media (max-width: 60em) {
       padding: 0 2rem;
@@ -38,10 +39,7 @@
     -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
     color: var(--color-light-grey-1);
-
   }
-
- 
 }
 .scroll-card__img {
   border-top-right-radius: 150px;
@@ -69,13 +67,15 @@
   height: auto;
   padding-right: 4vw;
   margin: 2rem 0 3rem;
+  position: absolute;
+  bottom: 0;
 }
 
 .fancy-link__icon {
   font-size: 1.4em;
 
   @media (max-width: 50em) {
-   margin-right: 2rem;
+    margin-right: 2rem;
   }
 }
 
