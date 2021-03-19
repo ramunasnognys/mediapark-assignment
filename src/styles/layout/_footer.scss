@@ -1,8 +1,41 @@
 @use '../base' as b;
 
 footer {
-    display: grid;
-    place-items: center;
-    height: 18rem;
-    color: white;
+  color: white;
+}
+
+.f-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding: 4rem 0;
+
+  @media (max-width: 37.5em) {
+    grid-template-columns: 1fr;
+    justify-content: left;
+    padding-left: 25%;
+  }
+}
+
+.footer-title {
+  margin-bottom: 1rem;
+}
+
+.f-icons {
+  justify-self: end;
+  align-self: end;
+
+  @media (max-width: 37.5em) {
+    justify-self: center;
+    margin-top: 2rem;
+    width: 100%;
+// margin-left: 5rem;
+  }
+}
+
+.footer-icon {
+    margin-left: 4rem;
+
+  @media (max-width: 37.5em) {
+    margin: 1em;
+  }
 }
