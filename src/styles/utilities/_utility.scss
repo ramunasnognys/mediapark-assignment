@@ -22,6 +22,8 @@
 }
 
 .temp-h {
+  display: grid;
+  place-items: center;
   height: 50rem;
   border: 2px solid brown;
 }
@@ -30,5 +32,3 @@
   margin-inline: auto;
   width: min(90%, 135.1rem);
 }
-
-

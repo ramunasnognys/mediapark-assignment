@@ -1,5 +1,8 @@
 @use '../base' as b;
 
 footer {
+    display: grid;
+    place-items: center;
     height: 18rem;
+    color: white;
 }
