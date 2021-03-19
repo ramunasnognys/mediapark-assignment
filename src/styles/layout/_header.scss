@@ -1,6 +1,7 @@
 .site-head {
+  position: relative;
   padding: 2.1rem 0;
-
+  z-index: 1;
 
   & :focus {
     outline-color: rgb(0, 195, 255);

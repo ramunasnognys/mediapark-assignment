@@ -1,8 +1,55 @@
+.scroll-card {
+  max-height: 100%;
+  min-height: 600px;
+  margin-bottom: 4rem;
+  width: 100%;
+  background: var(--color-light);
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 3.1rem;
+  border-bottom-right-radius: 3.1rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 50em) {
+    margin-bottom: 4rem;
+  }
+
+  &__text-content {
+    padding: 0 4.5rem;
+
+    @media (max-width: 60em) {
+      padding: 0 2rem;
+    }
+    @media (max-width: 50em) {
+      padding: 0 4rem;
+    }
+  }
+
+  &__title {
+    margin: 2.5rem 0 1rem;
+    color: var(--light-grey-2);
+  }
+
+  &__summary {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 30px; /* fallback */
+    max-height: 85px; /* fallback */
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    color: var(--color-light-grey-1);
+
+  }
+
+ 
+}
 .scroll-card__img {
+  border-top-right-radius: 150px;
+
   background-size: cover;
   background-position: center;
-  min-height: 300px;
-  width: 400px;
+  min-height: 35rem;
+  width: 100%;
 
   &--1 {
     background: url(../images/naujienos/chris-barbalis-696423-unsplash.png);
@@ -13,4 +60,28 @@
   &--3 {
     background: url(../images/header/kirill-975619-unsplash.png);
   }
+}
+
+.icon-block {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  padding-right: 4vw;
+  margin: 2rem 0 3rem;
+}
+
+.fancy-link__icon {
+  font-size: 1.4em;
+
+  @media (max-width: 50em) {
+   margin-right: 2rem;
+  }
+}
+
+.icon {
+  width: 2em;
+  height: 1em;
+  fill: var(--light-grey-2);
+  fill-rule: nonzero;
 }

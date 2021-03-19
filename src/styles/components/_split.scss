@@ -1,24 +1,23 @@
 .split {
   display: flex;
-  text-align: center;
 
   & > * + * {
     margin-left: 8rem;
 
-    @media (max-width: 40em) {
-      margin-top: 3rem;
+    @media (max-width: 80em) {
+      margin-left: 2rem;
     }
   }
 
   & > * {
     flex-basis: 100%;
-    @media (max-width: 40em) {
+    @media (max-width: 50em) {
       margin-left: auto;
       margin-right: auto;
     }
   }
 
-  @media (max-width: 40em) {
+  @media (max-width: 50em) {
     flex-direction: column;
   }
 
@@ -33,6 +32,7 @@
 
       @media (max-width: 40em) {
         margin-top: 3rem;
+        background: #000;
       }
     }
     & > * {
@@ -48,3 +48,4 @@
     }
   }
 }
+

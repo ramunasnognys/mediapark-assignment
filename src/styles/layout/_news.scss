@@ -1,4 +1,14 @@
+.news {
+
+  &__title {
+    margin: 4rem 0;
+  }
+}
+
+
 .news-card {
+
+ 
   &__img {
     background-position: center;
     min-height: 300px;
